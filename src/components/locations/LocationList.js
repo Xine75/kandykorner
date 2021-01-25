@@ -19,7 +19,7 @@ export const LocationList = () => {
     <div className="locatons">
       {console.log("LocationList: Render", locations)}
       {
-        locatons.map(location => {
+        locations.map(location => {
           return <LocationCard key={location.id} location={location} />
         })
       }
