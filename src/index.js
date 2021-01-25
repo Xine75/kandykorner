@@ -8,7 +8,7 @@ import { KandyKorner } from "./components/KandyKorner"
 ReactDOM.render(
   <React.StrictMode>
     <Route>
-    <KandyKorner />
+      <KandyKorner />
     </Route>
   </React.StrictMode>,
   document.getElementById('root')

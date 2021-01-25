@@ -22,13 +22,12 @@ export const ApplicationViews = () => {
             </ProductProvider>
 
 
-
             {/* Render the animal list when http://localhost:3000/animals */ }
-    <LocationProvider>
-        <Route exact path="/locations">
-            <LocationList />
-        </Route>
-    </LocationProvider>
+            <LocationProvider>
+                <Route exact path="/locations">
+                    <LocationList />
+                </Route>
+            </LocationProvider>
 
     {/* Render the animal list when http://localhost:3000/animals */ }
     {/* <CustomerProvider>
