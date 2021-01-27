@@ -66,7 +66,7 @@ return(
               <div className="form-group">
                   <label htmlFor="location">Assign to location: </label>
 
-                  <select defaultValue={employee.locationId} onChange={handleControlledInputChange} name="locationId" id="locationId" className="form-control" >
+                  <select value={employee.locationId} onChange={handleControlledInputChange} name="locationId" id="locationId" className="form-control" >
                       <option value="0">Select a location</option>
                       {locations.map(l => (
                           <option key={l.id} value={l.id}>
