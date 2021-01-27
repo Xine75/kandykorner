@@ -7,8 +7,8 @@ export const Home = () => (
         <small>Gimme some sugar. I *am* your neighbor.</small>
 
         <address>
-            <div>Got a sweet tooth? Visit us at any or our locations!</div>
-            <div>500 Pop Rocks Way</div>
+            <div>Got a sweet tooth? Visit us at any of our locations!</div>
+            <div>100 Nougat Lane</div>
         </address>
         
     </>
