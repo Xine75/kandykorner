@@ -34,10 +34,6 @@ export const EmployeeList = () => {
           })
       }
         </div>
-
         </>
-
-
     )
-
 }
