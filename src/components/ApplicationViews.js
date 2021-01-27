@@ -1,5 +1,6 @@
 import React from "react"
 import { Route } from "react-router-dom"
+import { Home } from "./Home"
 import { LocationProvider } from "./locations/LocationProvider"
 import { LocationList } from "./locations/LocationList"
 import { ProductProvider } from "./products/ProductProvider"
@@ -10,9 +11,9 @@ export const ApplicationViews = () => {
     return (
         <>
             {/* Render the location list when http://localhost:3000/ */}
-            {/* <Route exact path="/">
+            <Route exact path="/">
                 <Home />
-            </Route> */}
+            </Route>
 
             {/* Render the product list when http://localhost:3000/products */}
             <ProductProvider>
